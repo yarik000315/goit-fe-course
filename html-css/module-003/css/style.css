@@ -26,13 +26,13 @@ img {
     margin: 77px auto 103px;
 }
 
-.menu-list {
-    margin: 0;
-    padding: 0;
+ul {
+    padding-inline-start: 0px;
 }
 
 li.menu-item {
-    list-style: none;
+    text-align: center;
+    margin: 0 3rem;
     display: inline-block;
 }
 
@@ -42,9 +42,7 @@ li.menu-item {
 
 .menu-item a:hover {
     color:#03a9f4;
-    padding: 5px 0 5px 0;
-    border-radius: 5px;
-    font-weight: bold;
+       font-weight: absolute; 
 }
 
 .menu-item a {
