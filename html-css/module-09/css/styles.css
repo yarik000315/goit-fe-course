@@ -1,0 +1,315 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* montserrat-regular - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'),
+    url('../fonts/montserrat-v14-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/montserrat-v14-latin-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-700 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat Bold'), local('Montserrat-Bold'),
+    url('../fonts/montserrat-v14-latin-700.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/montserrat-v14-latin-700.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-300 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'),
+    url('../fonts/roboto-v20-latin-300.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/roboto-v20-latin-300.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-regular - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'),
+    url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/roboto-v20-latin-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+.container-fluid {
+  min-width: 320px;
+}
+
+.box-menu {
+  background-color: #000000;
+  background-image: url('../img/background-picture-mobile.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 540px;
+}
+
+.justify-content-center {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-item {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  border: 3px solid rgba(255, 255, 255, 0);
+  font-weight: bold;
+  line-height: 32px;
+  background-color: transparent;
+  outline: unset;
+  cursor: pointer;
+}
+
+.menu-item:hover,
+.menu-item:focus {
+  border: 3px solid #ffffff;
+  border-radius: 20px 20px 20px 20px;
+}
+
+
+.menu-name {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.main-text-1 {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.main-text-1,
+.main-text-2 {
+  text-align: center;
+}
+
+.main-text-2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 300;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.menu-button {
+  border: none;
+  background: #ff4e50;
+  line-height: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 20px 20px 20px 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  cursor: pointer;
+}
+
+.content-name {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #333333;
+  padding-top: 54px;
+}
+
+.card {
+  list-style: none;
+  padding-bottom: 13px;
+  cursor: pointer;
+}
+
+.card-img-name {
+  padding-top: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.card-img-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: rgb(102, 102, 102);
+}
+
+.cards-box {
+  padding-left: 0;
+  text-align: center;
+}
+
+.content-button {
+  margin-bottom: 38px;
+  background-color: transparent;
+  border: 3px solid #ff4e50;
+  border-radius: 20px 20px 20px 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+  line-height: 35px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(255, 78, 80);
+  outline-style: none;
+  cursor: pointer;
+}
+
+.button {
+  text-align: center;
+}
+
+.card-box {
+  display: inline-block;
+  position: relative;
+}
+
+.card-box:after {
+  content: '';
+  position: absolute;
+  height: 35px;
+  width: 35px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  border: 4px solid #fdfbfb;
+  border-radius: 50% 50% 50% 50%;
+  bottom: 0;
+  transform: translatex(-35px);
+}
+
+.icon-1:after {
+  background-image: url('../img/icon-1.png');
+  background-color: #ff4e50;
+}
+
+.icon-2:after {
+  background-image: url('../img/icon-2.png');
+  background-color: #ffa507;
+}
+
+.icon-3:after {
+  background-image: url('../img/icon-3.png');
+  background-color: #1cd7ad;
+}
+
+.icon-4:after {
+  background-image: url('../img/icon-4.png');
+  background-color: #4e73db;
+}
+
+@media screen and (min-width:320px) and (max-width:747px) {
+  .menu-name {
+    margin-top: 115px;
+  }
+
+  .card-img-text {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media screen and (min-width:748px) {
+  .container-fluid {
+    min-width: 730px;
+    max-width: 942px;
+  }
+
+  .box-menu {
+    min-height: 700px;
+    background-color: #000000;
+    background-image: url('../img/background-picture-tablet.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .main-menu {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 148px;
+    padding-top: 40px;
+  }
+
+  .main-text-1 {
+    line-height: 63px;
+    font-size: 52px;
+  }
+
+  .main-text-2 {
+    font-size: 24px;
+  }
+
+  .photo-2 {
+    order: 1;
+  }
+
+  .photo-4 {
+    order: 2;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  .content-button {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (min-width:942px) {
+  .container-fluid {
+    min-width: 924px;
+    max-width: 100vw;
+  }
+
+  .box-menu {
+    background-image: url('../img/background-picture-desktop.png');
+  }
+
+  .main-text-1 {
+    margin: 0;
+  }
+
+  .main-text-2 {
+    margin: 35px 0;
+  }
+
+  .card {
+    padding: 10px;
+  }
+
+  .content-button {
+    margin-bottom: 72px;
+  }
+}
