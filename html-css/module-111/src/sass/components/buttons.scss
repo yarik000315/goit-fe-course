@@ -1,0 +1,26 @@
+.button {
+  border-style: none;
+  cursor: pointer;
+}
+.header-button {
+  font-size: $main-font;
+  font-family: $main-font-family;
+  color: $main-nav-color;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 160px;
+  height: 40px;
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  outline-color: unset;
+  text-align: center;
+}
+
+.buttons-icons-box {
+  font-size: $main-font - 14px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}

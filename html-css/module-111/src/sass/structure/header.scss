@@ -1,0 +1,43 @@
+.container {
+  margin: $main-margin;
+}
+
+.header {
+  @extend %background-style;
+  background-image: linear-gradient(to bottom, rgba(243, 129, 129, 0.8), rgba(252, 227, 136, 0.8)), url('../images/background.png');
+
+  @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: linear-gradient(to bottom, rgba(243, 129, 129, 0.8), rgba(252, 227, 136, 0.8)), url('../images/background@2x.png');
+    }
+}
+
+.header-box {
+  min-height: 1000px;
+  text-align: center;
+  padding: 20px;
+}
+
+.header-info__text {
+  display: block;
+  text-align: center;
+  color: $main-nav-color;
+
+  &--cursive {
+    font-family: $secondary-font-family;
+    font-style: italic;
+    font-weight: 400;
+    font-size: $main-font + 58px;
+    margin-top: 150px;
+  }
+
+  &--uppercase {
+    font-size: $main-font + 136px;
+    font-family: $main-font-family;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 50px;
+    margin-bottom: 120px;
+  }
+}

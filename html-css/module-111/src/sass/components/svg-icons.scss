@@ -1,0 +1,30 @@
+
+.icon {
+  width: 54px;
+  height: 54px;
+  border: 1px solid #f38181;
+  border-style: solid;
+  background-color: #fce38af1;
+  cursor: pointer;
+  position: relative;
+}
+
+.icon__svg {
+  width: 45%;
+  height: 100%;
+  fill: #f38181;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+
+.icon:hover .icon__svg,
+.icon:focus .icon__svg {
+  fill: #ffffff;
+  transition: 0.2s;
+}
+
+.icon-box {
+  justify-content: center;
+}

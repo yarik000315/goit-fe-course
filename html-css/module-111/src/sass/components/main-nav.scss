@@ -1,0 +1,18 @@
+.nav {
+  min-width: 630px;
+  font-family: $main-font-family;
+  font-size: $main-font;
+  line-height: 36px;
+  color: $main-nav-color;
+  text-transform: uppercase;
+  list-style: none;
+  padding: 0;
+  &__icon--svg {
+    width: 18px;
+    height: 15px;
+    fill: $main-nav-color;
+  }
+}
+.nav__item {
+  position: relative;
+}

@@ -1,0 +1,36 @@
+.about-services,
+.about-team {
+  font-family: $secondary-font-family;
+  font-size: $main-font + 10px;
+  font-style: italic;
+  color: $main-content-color;
+  line-height: 26px;
+  text-align: center;
+  display: block;
+}
+
+.about-services {
+  padding-top: 44px;
+}
+
+.name-services,
+.team-names {
+  font-family: $main-font-family;
+  text-transform: uppercase;
+  font-size: $main-font + 16px;
+  color: $main-content-color;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  line-height: 110px;
+  padding-bottom: 50px;
+}
+.name-services::after {
+  display: block;
+  content: '';
+  height: 3px;
+  width: 62px;
+  background-color: $animation-color-services;
+  margin-left: auto;
+  margin-right: auto;
+}

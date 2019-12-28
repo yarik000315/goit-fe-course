@@ -1,0 +1,26 @@
+.team-names::after {
+  display: block;
+  content: '';
+  height: 3px;
+  width: 62px;
+  background-color: $team-name-color;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-team {
+  padding-top: 82px;
+}
+
+.our-team-text {
+  font-family: $additional-font-family;
+  font-size: $main-font + 1px;
+  color: $main-text-color;
+  line-height: 27px;
+  text-align: center
+}
+
+.about-team-box {
+  width: 980px;
+  margin: 0 auto 70px;
+}

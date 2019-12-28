@@ -1,0 +1,55 @@
+.team-cards {
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-basis: 1200px;
+  min-height: 625px;
+}
+
+.team-card {
+  position: relative;
+  cursor: pointer;
+}
+
+.layers {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 470px;
+  min-width: 382px;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #f38181, #fce38a);
+}
+
+.photo-card {
+  background: $svg-icon-color;
+  height: 470px;
+  width: 382px;
+  text-align: center;
+
+  &__name {
+    font-family: $main-font-family;
+    font-size: $main-font;
+    color: $main-content-color;
+    text-transform: uppercase;
+    line-height: 35px;
+    font-weight: 400;
+    padding-top: 15px;
+  }
+  &__image {
+    min-height: 470px;
+    min-width: 382px;
+  }
+}
+
+.profession {
+  font-family: $additional-font-family;
+  font-size: $main-font + 1px;
+  font-style: italic;
+  color: $main-text-color;
+  line-height: 28px;
+  padding-bottom: 75px;
+  display: block;
+  text-transform: none;
+}

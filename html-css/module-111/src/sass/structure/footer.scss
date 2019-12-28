@@ -1,0 +1,43 @@
+.footer-box {
+  flex-wrap: nowrap;
+  min-height: 62px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.info-ownership {
+  font-family: $main-font-family;
+  font-size: $main-font;
+  color:$main-content-color;
+}
+
+.email-item {
+  font-family: $additional-font-family;
+  font-size: $main-font + 1px;
+  color: $email-item-color;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.7;
+  height: 100%;
+  padding: 0;
+  border: 1px solid #e5e5e5;
+  flex-grow: 2;
+}
+
+.info-email form {
+  height: 40px;
+  width: 380px;
+  justify-content: space-between;
+}
+
+.email-subscribe {
+  font-family: $main-font-family;
+  font-size: $main-font;
+  text-transform: uppercase;
+  color: $main-nav-color;
+  border-style: none;
+  height: 100%;
+  padding: 0;
+  width: 149px;
+  background-color: $svg-icon-color;
+  cursor: pointer;
+}

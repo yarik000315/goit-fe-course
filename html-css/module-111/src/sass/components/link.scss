@@ -1,0 +1,17 @@
+.nav__link {
+  text-decoration: none;
+  transition: 0.2s;
+  color: $main-nav-color;
+  cursor: pointer;
+  &::after {
+    content: '';
+    height: 3px;
+    background-color: $animation-color;
+    transition: width 0.5s, left 0.5s;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+  }
+}
+

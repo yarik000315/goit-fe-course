@@ -1,0 +1,44 @@
+.services-box {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 100%;
+  align-content: space-around;
+  padding-left: 0;
+
+  &__name {
+    font-family: $main-font-family;
+    font-size: $main-font;
+    color: $main-content-color;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1;
+    padding-bottom: 18px;
+  }
+
+  &__icon {
+    fill: $svg-icon-color;
+    width: 32px;
+  }
+
+  &__item {
+    list-style-type: none;
+    width: 383px;
+    min-height: 170px;
+    padding: 5px 5px 5px 5px;
+  }
+
+  &__text {
+    font-family: $additional-font-family;
+    font-size: $main-font + 1px;
+    color: $main-text-color;
+    line-height: 27px;
+    text-align: left;
+  }
+
+  &__svg-container {
+    height: 32px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+}

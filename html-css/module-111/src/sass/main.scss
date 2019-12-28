@@ -1,0 +1,19 @@
+// Utils
+@import 'helpers/variables';
+@import 'helpers/placeholder';
+// base styles
+@import 'normalize.scss';
+@import 'base.scss';
+// main sections
+@import 'structure/header.scss';
+@import 'structure/main-content.scss';
+@import 'structure/footer.scss';
+// main components
+@import 'components/main-nav.scss';
+@import 'components/buttons.scss';
+@import 'components/link.scss';
+@import 'components/hover.scss';
+@import 'components/services-box.scss';
+@import 'components/team-box.scss';
+@import 'components/team-cards.scss';
+@import 'components/svg-icons.scss';

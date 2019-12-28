@@ -1,0 +1,56 @@
+.nav__link {
+  &:hover:after {
+    width: 100%;
+    left: 0;
+  }
+
+  &:hover,
+  &:focus {
+    color: $animation-color;
+  }
+}
+
+.nav__icon--svg {
+  
+  &:hover,
+  &:focus {
+    fill: $animation-color;
+  }
+}
+
+
+.team-card {
+  &:hover {
+    opacity: 0.9;
+
+    & .layers {
+      opacity: 0.9;
+      transform: translate(-11px, -11px);
+    }
+
+    & .photo-card__image {
+      transform: translate(-11px, -11px);
+    }
+
+    & .buttons-icons-box {
+      opacity: 1;
+    }
+  }
+}
+
+.icon {
+
+  &:hover,
+  &:focus {
+    background-color: animation-color-services;
+    opacity: 1;
+    outline-color: unset;
+  }
+}
+
+.info-ownership {
+  &span:hover {
+    color: $animation-color-services;
+    cursor: pointer;
+  }
+}
